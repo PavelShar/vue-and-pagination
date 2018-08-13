@@ -1,19 +1,16 @@
-# Vue Simple Pagination
+# Installation and Basic Usage
 
-Simple, generic and non-intrusive pagination component for Vue.js  
+## Install
+To install `vue-simple-pagination` to your project just run following command 
 
-* Minimal setup, no overweight. Just install, import and wrap your items template
-* You can change controls, accent-color, position, number of items per page and other  
-* You can provide your own controls components with your own styles
 
-[Documentation with examples]()
-
-### Install
 ```bash
 npm install vue-simple-pagination # OR yarn add vue-simple-pagination
 ```
 
-### Basic usage  
+
+## Usage
+
 * Import Pagination component from `vue-simple-pagination`
 * Register it as component
 * Use it in your template
@@ -66,5 +63,3 @@ npm install vue-simple-pagination # OR yarn add vue-simple-pagination
   }
 </script>
 ```
-
-

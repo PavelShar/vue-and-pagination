@@ -1,21 +1,17 @@
 <template>
 
-    <div class="pagination__pages">
-        <div
-            class="page prev"
+    <div class="vsp-pagination__pages">
+        <arrow
             v-if="withSideArrows"
-            :class="{'is-disabled' : page === 1}"
-            @click="page > 1 ? $emit('to', page - 1) : null">
-
-            <svg width="12px" :fill="color" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M1427 301l-531 531 531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19l-742-742q-19-19-19-45t19-45l742-742q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z">
-                </path>
-            </svg>
-        </div>
+            type="prev"
+            class="transparent"
+            :isDisabled="page === 1"
+            :color="color"
+            @click.native="page > 1 ? $emit('to', page - 1) : null">
+        </arrow>
 
 
-        <div class="page"
+        <div class="vsp-pagination__pages__page"
              v-for="(p,k) in previous"
              :key="`prev_${k}`"
              :style="{color}"
@@ -23,9 +19,9 @@
             {{p}}
         </div>
 
-        <div :style="{background: color}" class="page is-active">{{ page }}</div>
+        <div :style="{background: color}" class="vsp-pagination__pages__page is-active">{{ page }}</div>
 
-        <div class="page"
+        <div class="vsp-pagination__pages__page"
              v-for="(p,k) in next"
              :key="`next_${k}`"
              :style="{color}"
@@ -33,24 +29,23 @@
             {{p}}
         </div>
 
-        <div
-            class="page next"
+
+        <arrow
             v-if="withSideArrows"
-            :class="{'is-disabled' : page === pages}"
-            @click="page < pages ? $emit('to', page + 1) : null">
+            type="next"
+            class="transparent"
+            :isDisabled="page === pages"
+            :color="color"
+            @click.native="page < pages ? $emit('to', page + 1) : null">
+        </arrow>
 
-            <svg width="12px" :fill="color" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z">
-                </path>
-            </svg>
-
-        </div>
     </div>
 
 </template>
 
 <script>
+
+    import Arrow from './../misc/arrow'
 
     const props = {
         page: {
@@ -87,6 +82,7 @@
 
     export default {
         props,
+        components: {Arrow}
     }
 
 
@@ -95,7 +91,7 @@
 
     $color-accent: #eaeaea;
 
-    .pagination {
+    .vsp-pagination {
         &__pages {
             display: flex;
             width: auto;
@@ -104,7 +100,7 @@
             justify-content: center;
             user-select: none;
 
-            .page {
+            &__page {
                 width: 30px;
                 background: white;
                 border-radius: 3px;

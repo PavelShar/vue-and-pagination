@@ -1,0 +1,151 @@
+export default [{
+    "title": "Mercury",
+    "year": 1985,
+    "vin": "WAUSFAFL6AA782134",
+    "color": "Turquoise"
+}, {
+    "title": "Mercury",
+    "year": 2007,
+    "vin": "1N6AA0CC1FN553109",
+    "color": "Crimson"
+}, {
+    "title": "Mercedes-Benz",
+    "year": 2011,
+    "vin": "WBAUL7C56DV680789",
+    "color": "Red"
+}, {
+    "title": "Mazda",
+    "year": 1999,
+    "vin": "2G61N5S31F9668837",
+    "color": "Yellow"
+}, {
+    "title": "Jeep",
+    "year": 2007,
+    "vin": "WAULC58E92A398014",
+    "color": "Mauv"
+}, {
+    "title": "Mercedes-Benz",
+    "year": 1989,
+    "vin": "1GD02ZCG1BF735959",
+    "color": "Fuscia"
+}, {
+    "title": "Buick",
+    "year": 2009,
+    "vin": "TRUDD38J581439517",
+    "color": "Yellow"
+}, {
+    "title": "Volkswagen",
+    "year": 1987,
+    "vin": "JN1CV6EK5EM671257",
+    "color": "Turquoise"
+}, {
+    "title": "GMC",
+    "year": 2004,
+    "vin": "1D7CE3GK8AS004137",
+    "color": "Red"
+}, {
+    "title": "Maserati",
+    "year": 2006,
+    "vin": "WAUWGAFB4BN153052",
+    "color": "Mauv"
+}, {
+    "title": "Hyundai",
+    "year": 2010,
+    "vin": "1GYS4AEF3CR794910",
+    "color": "Puce"
+}, {
+    "title": "Mazda",
+    "year": 2003,
+    "vin": "3VW117AU9FM980956",
+    "color": "Goldenrod"
+}, {
+    "title": "Chevrolet",
+    "year": 1995,
+    "vin": "1G6DA8E57D0788074",
+    "color": "Green"
+}, {
+    "title": "Mazda",
+    "year": 1990,
+    "vin": "WAUFMAFC4EN069125",
+    "color": "Mauv"
+}, {
+    "title": "MG",
+    "year": 1977,
+    "vin": "WA1CGAFE4ED548952",
+    "color": "Indigo"
+}, {
+    "title": "Ford",
+    "year": 2013,
+    "vin": "1G6DV5EPXD0723658",
+    "color": "Puce"
+}, {
+    "title": "Volkswagen",
+    "year": 2001,
+    "vin": "WAUXG74F69N874674",
+    "color": "Orange"
+}, {
+    "title": "Volkswagen",
+    "year": 1984,
+    "vin": "1GD11ZCGXDF037618",
+    "color": "Mauv"
+}, {
+    "title": "Ford",
+    "year": 2010,
+    "vin": "1G6AB5RA9F0221924",
+    "color": "Pink"
+}, {
+    "title": "Land Rover",
+    "year": 2004,
+    "vin": "WBXPA73494W942119",
+    "color": "Teal"
+}, {
+    "title": "Hummer",
+    "year": 2010,
+    "vin": "3FAHP0GA1AR160330",
+    "color": "Aquamarine"
+}, {
+    "title": "Dodge",
+    "year": 1993,
+    "vin": "1FTMF1EW1AF033457",
+    "color": "Goldenrod"
+}, {
+    "title": "Volkswagen",
+    "year": 1996,
+    "vin": "5XXGM4A79CG816939",
+    "color": "Aquamarine"
+}, {
+    "title": "Mazda",
+    "year": 1995,
+    "vin": "TRUDD38J091005555",
+    "color": "Khaki"
+}, {
+    "title": "Lotus",
+    "year": 2005,
+    "vin": "3C3CFFCR5FT449425",
+    "color": "Green"
+}, {
+    "title": "Suzuki",
+    "year": 2007,
+    "vin": "1C4RDJAG8CC076095",
+    "color": "Violet"
+}, {
+    "title": "Mitsubishi",
+    "year": 2007,
+    "vin": "JN8AZ1MU1DW248231",
+    "color": "Maroon"
+}, {
+    "title": "Chevrolet",
+    "year": 1955,
+    "vin": "5UXFB33542L881590",
+    "color": "Fuscia"
+}, {
+    "title": "Chevrolet",
+    "year": 2007,
+    "vin": "WAUXD68D32A525898",
+    "color": "Yellow"
+}, {
+    "title": "Volkswagen",
+    "year": 2003,
+    "vin": "3D7JB1ET1BG484756",
+    "color": "Aquamarine"
+}];

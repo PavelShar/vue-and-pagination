@@ -1,16 +1,17 @@
 <template>
 
-    <div class="pagination">
+    <div class="vsp-pagination">
 
-        <slot name="controls" v-bind="configuration">
+        <slot name="controls" v-bind="configuration" v-if="controlsOnTop">
             <slot name="top-controls" v-bind="configuration">
                 <component
-                    class="pagination__controls top"
+                    class="vsp-pagination__controls top"
                     v-bind="configuration"
-                    v-if="controlsOnTop && pages > 1"
+                    v-if="pages > 1"
                     :is="controlsType"
                     :color="color"
                     :withSideArrows="withSideArrows"
+                    :align="controlsAlign"
                     @to="follow">
                 </component>
             </slot>
@@ -20,15 +21,16 @@
         <slot :scope="scope" v-bind="configuration"/>
 
 
-        <slot name="controls" v-bind="configuration">
+        <slot name="controls" v-bind="configuration" v-if="controlsOnBottom">
             <slot name="bottom-controls" v-bind="configuration">
                 <component
-                    class="pagination__controls bottom"
+                    class="vsp-pagination__controls bottom"
                     v-bind="configuration"
-                    v-if="controlsOnBottom && pages > 1"
+                    v-if="pages > 1"
                     :is="controlsType"
                     :color="color"
                     :withSideArrows="withSideArrows"
+                    :align="controlsAlign"
                     @to="page = $event">
                 </component>
             </slot>
@@ -41,6 +43,7 @@
 <script>
 
     import Pages from './pages'
+    import Numbers from './numbers'
 
     const props = {
 
@@ -64,14 +67,20 @@
             default: true
         },
 
-        from: {
-            type: Number,
-            default: 1
-        },
 
         controlsType: {
             type: String,
             default: 'Pages'
+        },
+
+        controlsAlign: {
+            type: String,
+            default: 'center'
+        },
+
+        from: {
+            type: Number,
+            default: 1
         },
 
         useKeyboard: {
@@ -87,7 +96,7 @@
 
         color: {
             type: String,
-            default: '#5f526a'
+            default: '#35495e'
         },
 
         sidePagesNumber: {
@@ -104,7 +113,8 @@
     export default {
         props,
         components: {
-            Pages
+            Pages,
+            Numbers,
         },
 
         data() {
@@ -171,7 +181,7 @@
                     page: this.page,
                     pages: this.pages,
                     previous: this.previous,
-                    next: this.next
+                    next: this.next,
                 }
             }
 
@@ -244,7 +254,7 @@
 
 <style lang="scss" scoped>
 
-    .pagination {
+    .vsp-pagination {
         &__controls {
             &.bottom {
                 margin-top: 20px;
