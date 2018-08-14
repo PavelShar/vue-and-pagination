@@ -1,4 +1,4 @@
-# Vue Simple Pagination
+# Vue Pagination
 
 Simple, generic and non-intrusive pagination component for Vue.js  
 
@@ -6,16 +6,16 @@ Simple, generic and non-intrusive pagination component for Vue.js
 * You can change controls, accent-color, position, number of items per page and other  
 * You can provide your own controls components with your own styles
 
-[Documentation](https://pavelshar.github.io/vue-simple-pagination/)  
-[Examples](https://pavelshar.github.io/vue-simple-pagination/guide/examples.html)
+[Documentation](https://pavelshar.github.io/vue-and-pagination/)  
+[Examples](https://pavelshar.github.io/vue-and-pagination/guide/examples.html)
 
 ### Install
 ```bash
-npm install vue-simple-pagination # OR yarn add vue-simple-pagination
+npm install vue-and-pagination # OR yarn add vue-and-pagination
 ```
 
 ### Basic usage  
-* Import Pagination component from `vue-simple-pagination`
+* Import Pagination component from `vue-and-pagination`
 * Register it as component
 * Use it in your template
 * Add props and data
@@ -48,7 +48,7 @@ npm install vue-simple-pagination # OR yarn add vue-simple-pagination
 
 <script>
 
-  import Pagination from 'vue-simple-pagination'
+  import Pagination from 'vue-and-pagination'
 
   export default {
     components: { Pagination },
