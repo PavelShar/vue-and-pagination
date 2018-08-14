@@ -6,7 +6,8 @@ Simple, generic and non-intrusive pagination component for Vue.js
 * You can change controls, accent-color, position, number of items per page and other  
 * You can provide your own controls components with your own styles
 
-[Documentation with examples]()
+[Documentation](https://pavelshar.github.io/vue-simple-pagination/)  
+[Examples](https://pavelshar.github.io/vue-simple-pagination/guide/examples.html)
 
 ### Install
 ```bash
