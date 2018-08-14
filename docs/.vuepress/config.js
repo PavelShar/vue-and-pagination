@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Vue Simple Pagination',
+    title: 'Vue Pagination',
     description: 'Simple, generic and non-intrusive pagination component for Vue.js',
     themeConfig: {
         nav: [
@@ -21,7 +21,7 @@ module.exports = {
                 }
             ]
         },
-        repo: 'PavelShar/vue-simple-pagination',
+        repo: 'PavelShar/vue-and-pagination',
     },
-    base: "/vue-simple-pagination/"
+    base: "/vue-and-pagination/"
 }

@@ -1,17 +1,17 @@
 # Installation and Basic Usage
 
 ## Install
-To install `vue-simple-pagination` to your project just run following command 
+To install `vue-and-pagination` to your project just run following command 
 
 
 ```bash
-npm install vue-simple-pagination # OR yarn add vue-simple-pagination
+npm install vue-and-pagination # OR yarn add vue-and-pagination
 ```
 
 
 ## Usage
 
-* Import Pagination component from `vue-simple-pagination`
+* Import Pagination component from `vue-and-pagination`
 * Register it as component
 * Use it in your template
 * Add props and data
@@ -44,7 +44,7 @@ npm install vue-simple-pagination # OR yarn add vue-simple-pagination
 
 <script>
 
-  import Pagination from 'vue-simple-pagination'
+  import Pagination from 'vue-and-pagination'
 
   export default {
     components: { Pagination },
