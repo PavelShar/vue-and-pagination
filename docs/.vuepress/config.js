@@ -23,5 +23,5 @@ module.exports = {
         },
         repo: 'PavelShar/vue-simple-pagination',
     },
-    base: "/<REPO>/"
+    base: "/vue-simple-pagination/"
 }

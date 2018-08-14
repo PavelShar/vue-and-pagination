@@ -1,7 +1,8 @@
 {
     "name": "vue-simple-pagination",
-    "version": "0.1.0",
-    "private": true,
+    "version": "1.0.0",
+    "description": "Simple, generic and non-intrusive pagination component for Vue.js",
+    "main": "dist/vue-simple-pagination.umd.min.js",
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build --target lib --name vue-simple-pagination ./src/index.js",
@@ -9,6 +10,25 @@
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PavelShar/vue-simple-pagination.git"
+    },
+    "keywords": [
+        "vue",
+        "vuejs",
+        "pagination",
+        "vue-cli-3",
+        "vuepress"
+    ],
+    "author": {
+        "name": "Paul Sharypov"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/PavelShar/vue-simple-pagination/issues"
+    },
+    "homepage": "https://pavelshar.github.io/vue-simple-pagination/",
     "dependencies": {
         "vue": "^2.5.17"
     },
@@ -16,7 +36,6 @@
         "@vue/cli-plugin-babel": "^3.0.0-rc.12",
         "@vue/cli-plugin-eslint": "^3.0.0-rc.12",
         "@vue/cli-service": "^3.0.0-rc.12",
-        "bulma": "^0.7.1",
         "node-sass": "^4.9.0",
         "sass-loader": "^7.0.1",
         "vue-template-compiler": "^2.5.17",

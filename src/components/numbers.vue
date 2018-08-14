@@ -77,6 +77,12 @@
                 padding: 0 10px;
                 cursor: default;
                 user-select: none;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                min-width: 50px;
+                box-sizing: border-box;
+                justify-content: center;
             }
 
             &.left {
