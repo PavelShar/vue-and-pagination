@@ -237,7 +237,7 @@
         },
 
 
-        created() {
+        mounted() {
             // Listen keyboard events
             window.addEventListener('keydown', this.keyboardEmitter, true);
         },
