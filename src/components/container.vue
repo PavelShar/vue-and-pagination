@@ -233,6 +233,12 @@
                 handler(p) {
                     if (this.page !== p) this.page = p;
                 }
+            },
+
+            items: {
+                handler() {
+                    this.page = 1;
+                }
             }
         },
 
