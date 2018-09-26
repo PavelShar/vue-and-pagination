@@ -1,6 +1,6 @@
 # Props
 
-### name  
+### items  
 * Type: `Array`  
 * Default: `[]`  
 
